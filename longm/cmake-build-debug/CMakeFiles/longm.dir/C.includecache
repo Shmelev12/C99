@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/semen/CLionProjects/longm/headers/longmath.h
+
+/Users/semen/CLionProjects/longm/src/longmath.c
+../headers/longmath.h
+/Users/semen/CLionProjects/longm/headers/longmath.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+/Users/semen/CLionProjects/longm/tests/testlongmath.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+../headers/longmath.h
+/Users/semen/CLionProjects/longm/headers/longmath.h
+
